@@ -1,4 +1,5 @@
 import React from 'react'
+import Child from './Child'
 
 function NameList() {
     const personList = [
@@ -7,8 +8,9 @@ function NameList() {
         {id: 2, name: "peter", age: 15},
     ]
 
-    const conList = personList.map((person)=>(<h3>{person.age} {person.name}</h3>))
+    const conList = personList.map(person=> <Child key= {person.id}person={person }/>)
   return   <div>{conList}</div>
+        
   
   
 }

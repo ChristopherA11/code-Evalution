@@ -11,4 +11,4 @@ const ButEle = () => {
   )
 }
 
-export default ButEle
+export default ButEle;
