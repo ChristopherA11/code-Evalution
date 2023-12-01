@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import List from './Classes/List';
+import NameList from './Classes/NameList';
 // import Greet from './Components/Greet';
 // import Welcome from './Classes/Welcome';
 // import ClassState from './Classes/ClassState';
@@ -20,6 +21,7 @@ function App() {
         <ParanentCom />
         <UserGreeting />
         <List/>
+        <NameList/>
          {/* <ClassState /> */}
          {/* <ButEle /> */}
          {/* <Event /> */}
