@@ -1,8 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-import Email from './Classes/Email';
+import FocusInput from './Classes/FocusInput';
+// import RefDemo from './Classes/RefDemo';
+// import Email from './Classes/Email';
+// import LifeCycle from './Classes/LifeCycle';
 // import NameList from './Classes/NameList';
-import List from './Classes/List';
+// import List from './Classes/List';
+// import ParenCom from './Classes/ParenCom';
 // import NameList from './Classes/NameList';
 // import Greet from './Components/Greet';
 // import Welcome from './Classes/Welcome';
@@ -22,8 +26,11 @@ function App() {
         {/* <Greet name="john" heroName="super hero" /> */}
         {/* <ParanentCom /> */}
         {/* <UserGreeting /> */}
-        <List/>
-        <Email/>
+        {/* <List/> */}
+        {/* < ParenCom /> */}
+        {/* <RefDemo /> */}
+        {/* <Email/> */}
+        {/* <LifeCycle /> */}
         {/* <NameList/> */}
          {/* <ClassState /> */}
          {/* <ButEle /> */}
@@ -33,6 +40,7 @@ function App() {
          {/* <CounteClass/> */}
         {/* <Welcome name="jerry"/> */}
         {/* <Hello /> */}
+        <FocusInput />
       </header>
     </div>
   );
